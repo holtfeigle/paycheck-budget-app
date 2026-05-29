@@ -79,6 +79,17 @@ function InsightPanel({ insight, projection }) {
                 </span>
               </div>
               <p className="text-xs opacity-75 mt-0.5 leading-relaxed">{rung.body}</p>
+              {rung.link && (
+                <a
+                  href={rung.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="inline-block mt-2 text-xs font-semibold text-emerald-700 hover:text-emerald-900 underline underline-offset-2"
+                >
+                  {rung.linkLabel}
+                </a>
+              )}
             </div>
           </div>
         ))}
@@ -93,6 +104,17 @@ function InsightPanel({ insight, projection }) {
         <div key={tip.title}>
           <p className="text-xs font-semibold">{tip.icon} {tip.title}</p>
           <p className="text-xs opacity-75 mt-0.5 leading-relaxed">{tip.body}</p>
+          {tip.link && (
+            <a
+              href={tip.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="inline-block mt-2 text-xs font-semibold text-emerald-700 hover:text-emerald-900 underline underline-offset-2"
+            >
+              {tip.linkLabel}
+            </a>
+          )}
         </div>
       ))}
     </div>

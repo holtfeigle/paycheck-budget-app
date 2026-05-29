@@ -40,6 +40,8 @@ export const BUCKET_INSIGHTS = {
         body: 'Before investing anything, build 3–6 months of expenses in a High Yield Savings Account. Current rates: 4–5% APY. Try Ally, Marcus, or SoFi. This prevents you from raiding investments during a rough patch.',
         tag: 'Foundation',
         tagColor: 'yellow',
+        link: 'https://www.sofi.com/banking/savings/',
+        linkLabel: 'Open a SoFi HYSA →',
       },
       {
         step: 2,
@@ -64,6 +66,8 @@ export const BUCKET_INSIGHTS = {
         body: 'Contribute after-tax dollars now, and all growth + withdrawals in retirement are 100% tax-free. 2026 max: $7,500 ($8,500 if 50+). Income limits apply — phases out at $153k–$168k single / $242k–$252k married. Open at Fidelity, Schwab, or Vanguard. Invest in low-cost index funds (VTI, VXUS).',
         tag: 'Tax-free growth',
         tagColor: 'emerald',
+        link: 'https://www.fidelity.com/open-account/roth-ira',
+        linkLabel: 'Open Roth IRA at Fidelity →',
       },
       {
         step: 5,
@@ -80,6 +84,8 @@ export const BUCKET_INSIGHTS = {
         body: 'Once tax-advantaged accounts are maxed, open a brokerage (Fidelity, Schwab, or Vanguard). No contribution limits, no withdrawal restrictions, no employer ties. Index funds are the default: VTI (US total market), VXUS (international), BND (bonds). Avoid individual stock picking.',
         tag: 'No limits',
         tagColor: 'sky',
+        link: 'https://www.fidelity.com/open-account/brokerage-account',
+        linkLabel: 'Open Brokerage at Fidelity →',
       },
     ],
   },
@@ -98,7 +104,7 @@ export const BUCKET_INSIGHTS = {
   emergency: {
     summary: 'Your emergency fund is insurance, not an investment. Keep it liquid and boring.',
     tips: [
-      { icon: '🏦', title: 'Where to keep it', body: 'High Yield Savings Account (HYSA). Current rates: 4–5% APY. Try Ally, Marcus by Goldman Sachs, or SoFi. Never keep it in a regular bank savings account earning 0.01%.' },
+      { icon: '🏦', title: 'Where to keep it', body: 'High Yield Savings Account (HYSA). Current rates: 4–5% APY. Try Ally, Marcus by Goldman Sachs, or SoFi. Never keep it in a regular bank savings account earning 0.01%.', link: 'https://www.sofi.com/banking/savings/', linkLabel: 'Open a SoFi HYSA →' },
       { icon: '📏', title: 'How much', body: '3 months = minimum (stable W-2 job, no dependents). 6 months = recommended (family, mortgage, average job security). 12 months = self-employed, commission-based, or volatile industry.' },
       { icon: '🚫', title: 'What counts as an emergency', body: 'Job loss, medical bills, essential car repairs, emergency home repairs. Not: vacations, sales, planned expenses. Having a separate "sinking fund" for expected irregular costs (car maintenance, holidays) keeps you from raiding the emergency fund.' },
       { icon: '🔄', title: 'After you use it', body: 'Replenish it before resuming extra debt payments or investments. The emergency fund always comes first.' },
