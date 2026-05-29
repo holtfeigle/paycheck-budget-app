@@ -247,6 +247,16 @@ function PaycheckForm({ draft, onChange, onSave }) {
           <p className="text-xs text-emerald-600 opacity-60 mt-2">
             Estimate — excludes 401k, health insurance, and other pre-tax deductions
           </p>
+          <div className="mt-2 pt-2 border-t border-emerald-100">
+            <a
+              href="https://turbotax.intuit.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 underline underline-offset-2"
+            >
+              File your taxes with TurboTax →
+            </a>
+          </div>
         </div>
       ) : (
         draft.grossPay && !stateCode && (
