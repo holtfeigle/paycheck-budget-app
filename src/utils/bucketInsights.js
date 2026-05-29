@@ -14,7 +14,7 @@ export const BUCKET_INSIGHTS = {
     tips: [
       { icon: '🧮', title: 'True total cost', body: 'Car payment + insurance + gas + maintenance + registration. Factor in depreciation — a new car loses 20% of its value in year one.' },
       { icon: '📏', title: 'The rules of thumb', body: 'Total vehicle value shouldn\'t exceed 50% of your annual income. Monthly payment alone shouldn\'t exceed 10-15% of take-home.' },
-      { icon: '⏱️', title: 'Loan length', body: 'If you need a 72–84 month loan to afford it, the car is too expensive. Target 48 months max — longer terms mean you\'re paying interest on a depreciating asset.' },
+      { icon: '⏱️', title: 'Loan length', body: 'If you need a 72–84 month loan to afford it, the car is too expensive. Target 48 months max — longer terms mean you\'re paying interest on a depreciating asset.', link: 'https://www.myautoloan.com/', linkLabel: 'Compare auto loan rates →' },
       { icon: '🚌', title: 'The arbitrage', body: 'Driving a paid-off $10k car instead of financing a $35k car frees up $500–$700/month. Invested over 10 years, that\'s often $100k+.' },
     ],
   },
@@ -117,7 +117,7 @@ export const BUCKET_INSIGHTS = {
       { icon: '🎯', title: 'The target', body: '20% down avoids PMI, which costs 0.5–1.5% of your loan per year ($1,000–$3,000/yr on a $200k loan). On a $400k home, 20% down = $80k.' },
       { icon: '🏦', title: 'Where to save it', body: 'HYSA for money you\'ll need within 1–2 years. If your timeline is 3–5 years, consider a mix of HYSA and short-term Treasury bills (4–5% with no state tax). Don\'t invest a down payment in the stock market — too risky over short horizons.' },
       { icon: '📋', title: 'Don\'t forget closing costs', body: 'Budget an additional 2–5% of the home price for closing costs, inspections, moving, and immediate repairs. First-time buyers often get surprised by this.' },
-      { icon: '🔑', title: 'First-time buyer programs', body: 'Many states offer down payment assistance, reduced PMI, or below-market rates for first-time buyers. HUD.gov has a state-by-state directory. Some programs only require 3–5% down.' },
+      { icon: '🔑', title: 'First-time buyer programs', body: 'Many states offer down payment assistance, reduced PMI, or below-market rates for first-time buyers. HUD.gov has a state-by-state directory. Some programs only require 3–5% down.', link: 'https://www.lendingtree.com/home/mortgage/', linkLabel: 'Compare mortgage rates →' },
     ],
   },
 
@@ -127,7 +127,7 @@ export const BUCKET_INSIGHTS = {
       { icon: '⚡', title: 'Avalanche method', body: 'Pay minimums on everything, throw every extra dollar at the highest interest rate debt first. Mathematically optimal — saves the most money.' },
       { icon: '🏔️', title: 'Snowball method', body: 'Pay off the smallest balance first regardless of rate. Less optimal mathematically, but the psychological wins keep people on track. If avalanche feels overwhelming, use this.' },
       { icon: '🚫', title: 'Stop adding to it', body: 'Paying off $5k in credit card debt while still using the card is like bailing out a boat with a hole in it. Temporarily freeze the card or remove it from digital wallets while in paydown mode.' },
-      { icon: '📞', title: 'Negotiate your rates', body: 'Call and ask for a lower interest rate — it works roughly 70% of the time for customers in good standing. A 5-minute call can save hundreds per year.' },
+      { icon: '📞', title: 'Negotiate your rates', body: 'Call and ask for a lower interest rate — it works roughly 70% of the time for customers in good standing. A 5-minute call can save hundreds per year. Know your credit score first — it\'s your leverage.', link: 'https://www.experian.com/consumer-products/score-report-card.html', linkLabel: 'Check your Experian score free →' },
     ],
   },
 
